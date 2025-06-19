@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  database:
+    image: mysql:5.6
+    restart: always
+    container_name: ${APP_NAME}_database
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - ${DB_PORT-3306}:3306
+    networks:
+      - sac_network
+    volumes:
+      - ./mysql:/var/lib/mysql
+
+networks:
+  sac_network: 
+    driver: bridge
