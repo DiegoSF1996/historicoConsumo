@@ -3,7 +3,7 @@ package Models
 import "time"
 
 type Item struct {
-	ID              int           `gorm:"primaryKey" json:"id"`
+	Id              int           `gorm:"column:id;primaryKey" json:"id"`
 	Codigo          string        `gorm:"column:codigo;type:varchar(60)" json:"codigo"`
 	Descricao       string        `gorm:"column:descricao;type:varchar(90)" json:"descricao"`
 	UnidadeMedidaId int           `gorm:"column:unidade_medida_id;type:int" json:"unidade_medida_id"`

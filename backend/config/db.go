@@ -50,7 +50,6 @@ func (db_config *DBConfig) connectDB() (*gorm.DB, error) {
 		db_config.DB_NAME,
 	)
 
-
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	return db, err
 }

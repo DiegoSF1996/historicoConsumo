@@ -3,7 +3,7 @@ package Models
 import "time"
 
 type UnidadeMedida struct {
-	ID        int       `gorm:"primaryKey" json:"id"`
+	Id        int       `gorm:"column:id;primaryKey;autoIncrement" json:"id"`
 	Descricao string    `gorm:"column:descricao;type:varchar(90)" json:"descricao"`
 	CreatedAt time.Time `gorm:"column:created_at;type:datetime" json:"created_at"`
 	UpdatedAt time.Time `gorm:"column:updated_at;type:datetime" json:"updated_at"`

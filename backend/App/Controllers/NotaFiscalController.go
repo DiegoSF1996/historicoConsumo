@@ -1,8 +1,6 @@
 package Controllers
 
 import (
-	"encoding/json"
-	"fmt"
 	"historico_consumo/App/Repositories"
 	"historico_consumo/App/Requests"
 	"net/http"
@@ -46,14 +44,14 @@ func (controller *NotaFiscalController) Create(c *gin.Context) {
 		c.JSON(http.StatusBadRequest, gin.H{"erro": "JSON inválido", "detalhes": err.Error()})
 		return
 	}
-	body.EstabelecimentoId = 1
+	controller.nota_fiscal_repository.Create(body)
 	// Agora vamos exibir formatado
-	jsonBytes, err := json.MarshalIndent(body, "", "  ")
+	/* jsonBytes, err := json.MarshalIndent(body, "", "  ")
 	if err != nil {
 		fmt.Println("Erro ao formatar JSON:", err)
 	} else {
 		fmt.Printf("📦 Dados recebidos do front:\n%s\n", string(jsonBytes))
-	}
+	} */
 
 }
 
