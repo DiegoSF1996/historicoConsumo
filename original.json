@@ -1,0 +1,173 @@
+{
+    "serie": "24",
+    "numero": "71874",
+    "emissao": "1 - Normal",
+    "protocolo_autorizacao": "229250442250607",
+    "data_autorizacao": "12/04/2025 11:34:11-03:00",
+    "chave_de_acesso": "29250406057223055235650240000718741240778616",
+    "qtd_total_itens": 18,
+    "valor_total": 187.88,
+    "descontos": 1.6,
+    "valor_a_pagar": 186.28,
+    "valor_tributos": 25.85,
+    "consumidor": {
+        "cpf": "066.411.195-56"
+    },
+    "estabelecimento": {
+        "nome": "SENDAS DISTRIBUIDORA S/A",
+        "cnpj": "06.057.223/0552-35",
+        "endereco": "AV ANTONIO CARLOS MAGALHAES, 1400, , LUIS ANSELMO, Salvador, BA"
+    },
+    "formas_pagamento": [
+        {
+            "descricao": "3 - Cartão de Crédito",
+            "valor_pago": 186.28
+        }
+    ],
+    "item_nota_fiscal": [
+        {
+            "produto": "TOALHA ABSOL DEC 60F",
+            "codigo": "1027264",
+            "quantidade": 1,
+            "unidade": "Un",
+            "valor_unitario": 5.69,
+            "valor_total": 5.69
+        },
+        {
+            "produto": "CR HIDR NIV SOFT 97G",
+            "codigo": "1144742",
+            "quantidade": 1,
+            "unidade": "Un",
+            "valor_unitario": 25.9,
+            "valor_total": 25.9
+        },
+        {
+            "produto": "SAC 58X70 BIO CINZA",
+            "codigo": "1111117",
+            "quantidade": 4,
+            "unidade": "Un",
+            "valor_unitario": 0.25,
+            "valor_total": 1
+        },
+        {
+            "produto": "SC LIXO PA 30LT C/50",
+            "codigo": "71230",
+            "quantidade": 1,
+            "unidade": "PC",
+            "valor_unitario": 8.9,
+            "valor_total": 8.9
+        },
+        {
+            "produto": "ESPONJA ASSOLAN C/8",
+            "codigo": "1161485",
+            "quantidade": 1,
+            "unidade": "Un",
+            "valor_unitario": 1.36,
+            "valor_total": 1.36
+        },
+        {
+            "produto": "VELA LUZ DIV N4 C/8",
+            "codigo": "1139119",
+            "quantidade": 1,
+            "unidade": "PC",
+            "valor_unitario": 3.95,
+            "valor_total": 3.95
+        },
+        {
+            "produto": "PORTA TALHER SANREMO",
+            "codigo": "1195226",
+            "quantidade": 1,
+            "unidade": "Un",
+            "valor_unitario": 19.9,
+            "valor_total": 19.9
+        },
+        {
+            "produto": "CHOC STICK 25G O BCO",
+            "codigo": "1191119",
+            "quantidade": 1,
+            "unidade": "Un",
+            "valor_unitario": 1.69,
+            "valor_total": 1.69
+        },
+        {
+            "produto": "PATO GEL RF 38G MARI",
+            "codigo": "1066983",
+            "quantidade": 1,
+            "unidade": "Un",
+            "valor_unitario": 21.9,
+            "valor_total": 21.9
+        },
+        {
+            "produto": "FOS PARANA L ECO 200",
+            "codigo": "1109950",
+            "quantidade": 1,
+            "unidade": "PC",
+            "valor_unitario": 3.29,
+            "valor_total": 3.29
+        },
+        {
+            "produto": "CR COLG 2X150G L+P-",
+            "codigo": "1217297",
+            "quantidade": 1,
+            "unidade": "Am",
+            "valor_unitario": 14.9,
+            "valor_total": 14.9
+        },
+        {
+            "produto": "DESINF DRAG 2L FLORA",
+            "codigo": "1102566",
+            "quantidade": 1,
+            "unidade": "Un",
+            "valor_unitario": 6.49,
+            "valor_total": 6.49
+        },
+        {
+            "produto": "SBT DAVENE 90G AMEND",
+            "codigo": "1064325",
+            "quantidade": 4,
+            "unidade": "Un",
+            "valor_unitario": 4.68,
+            "valor_total": 18.72
+        },
+        {
+            "produto": "L R BRILUX 3L DILUID",
+            "codigo": "1019508",
+            "quantidade": 1,
+            "unidade": "Un",
+            "valor_unitario": 32.9,
+            "valor_total": 32.9
+        },
+        {
+            "produto": "AMAC UAU CON 1L CARI",
+            "codigo": "1207843",
+            "quantidade": 1,
+            "unidade": "Un",
+            "valor_unitario": 9.9,
+            "valor_total": 9.9
+        },
+        {
+            "produto": "AGUA SANIT YPE 2LT",
+            "codigo": "89546",
+            "quantidade": 1,
+            "unidade": "Un",
+            "valor_unitario": 6.49,
+            "valor_total": 6.49
+        },
+        {
+            "produto": "DET YPE 500ML CA LIM",
+            "codigo": "1076236",
+            "quantidade": 1,
+            "unidade": "Un",
+            "valor_unitario": 2.85,
+            "valor_total": 2.85
+        },
+        {
+            "produto": "DET TEIU 500ML CLEAR",
+            "codigo": "1046719",
+            "quantidade": 1,
+            "unidade": "Un",
+            "valor_unitario": 2.05,
+            "valor_total": 2.05
+        }
+    ]
+}
